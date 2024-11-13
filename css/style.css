@@ -26,8 +26,6 @@ img {
     height: 548px;
     top: 219px;
     left: 64px;
-
-
 }
 
 .travel-description__header {
@@ -125,4 +123,32 @@ img {
 .travel-statistics__text{
     font-size: 14px;
     font-weight: 400;
+}
+
+.reviews {
+    position: relative;
+    width: 665px; 
+    height: 688px;
+    top: 125px;
+    left: 469px;
+}
+
+.reviews__frame {
+    position: relative;
+    left: 67px;
+    width: 500px;
+    height: 686.3px;
+
+
+    border-radius: 250px 250px 0 0; 
+    border: 0.81px solid #000000; 
+}
+
+.reviews__background-photo {
+    position: relative;
+    width: 436.38px;
+    height: 610.93px;
+    top: 42.8px;
+    left: 30.69px;
+
 }

@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #ffffff;  
+    background-color: #c1e1ff;  
     font-family: 'Lato', sans-serif;
     color: #333333;
 
@@ -16,6 +16,7 @@ img {
 .container {
     padding-bottom: 80px;
     padding-left: 64px;
+    position: relative;
 }
 
 .travel-description {
@@ -23,27 +24,28 @@ img {
     width: 363px;
     height: 548px;
 
+
 }
 
-.travel-description h2 {
+.travel-description__header {
     font-size: 18px;
     font-weight: 300;
 }
 
-.travel-description h1 {
+.travel-description__title {
     font-size: 56px;
     font-weight: 500;
     padding-top: 8px;
 }
 
-.travel-description p {
+.travel-description__subtitle {
     font-size: 24px;
     font-weight: 400;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.travel-description button {
+.travel-description__explore-button {
     background: #333333;
     color: #FFFFFF;
     font-size: 22px;
@@ -57,4 +59,10 @@ img {
 .travel-description button:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.travel-description__soft-star {
+    position: absolute;
+    top: 144px;
+    left: 386px;
 }

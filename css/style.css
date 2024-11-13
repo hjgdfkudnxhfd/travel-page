@@ -14,7 +14,10 @@ img {
 }
 
 .container {
-    padding-bottom: 80px;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 1024px;
+
     padding-left: 64px;
     position: relative;
 }
@@ -65,4 +68,13 @@ img {
     position: absolute;
     top: 144px;
     left: 386px;
+}
+
+.travel-cards {
+    position: absolute;
+    top: 94px;
+    right: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }

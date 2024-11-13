@@ -17,15 +17,15 @@ img {
     background-color: #FFFFFF;
     width: 1440px;
     height: 1024px;
-
-    padding-left: 64px;
     position: relative;
 }
 
 .travel-description {
-    padding-top: 219px;
+    position: absolute;
     width: 363px;
     height: 548px;
+    top: 219px;
+    left: 64px;
 
 
 }
@@ -71,10 +71,58 @@ img {
 }
 
 .travel-cards {
+    width: 200px;
+    height: 834px;
     position: absolute;
     top: 94px;
     right: 64px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.travel-statistics {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 964px;
+    height: 83px;
+    top: 861px;
+    left: 64px;
+    gap: 32px;
+}
+
+.travel-statistics__frame {
+    border: 1px solid #000000;
+    border-radius: 16px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 0 40.5px;
+    box-shadow: 8px 8px 0px #333333;
+
+}
+
+.travel-statistics__frame-1 {
+    background-color: #D2EAF4;
+}
+
+.travel-statistics__frame-2 {
+    background-color: #EFC48F;
+}
+
+.travel-statistics__frame-3 {
+    background-color: #EECFCD;
+}
+
+.travel-statistics__header{
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.travel-statistics__text{
+    font-size: 14px;
+    font-weight: 400;
 }

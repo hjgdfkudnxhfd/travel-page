@@ -13,11 +13,11 @@ img {
     max-width: 100%;
 }
 
-.container {
+.travel-page {
+    position: relative;
     background-color: #FFFFFF;
     width: 1440px;
     height: 1024px;
-    position: relative;
 }
 
 .travel-description {

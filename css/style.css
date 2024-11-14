@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #c1e1ff;  
+    background-color: #ffffff;  
     font-family: 'Lato', sans-serif;
     color: #333333;
 
@@ -99,7 +99,6 @@ img {
     text-align: left;
     padding: 0 40.5px;
     box-shadow: 8px 8px 0px #333333;
-
 }
 
 .travel-statistics__frame-1 {
@@ -133,13 +132,13 @@ img {
     left: 469px;
 }
 
+
 .reviews__frame {
     position: relative;
+    z-index: 1;
     left: 67px;
     width: 500px;
     height: 686.3px;
-
-
     border-radius: 250px 250px 0 0; 
     border: 0.81px solid #000000; 
 }
@@ -150,5 +149,53 @@ img {
     height: 610.93px;
     top: 42.8px;
     left: 30.69px;
-
 }
+
+.reviews__cards {
+    position: absolute;
+    z-index: 2;
+    gap: 16px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.reviews__photo {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 25.5px;
+    left: 24px;
+    border-radius: 50%;
+}
+
+.reviews__text {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    width: 149px;
+    height: 51px;
+    top: 24px;
+    left: 88px;
+}
+
+.reviews__cards-left {
+    position: absolute;
+    width: 261px;
+    height: 99px;
+    top: 313px;
+    left: -5px;
+}
+
+.reviews__cards-right {
+    position: absolute;
+    width: 271px;
+    height: 99px;
+    top: 166px;
+    right: 18px;
+}
+

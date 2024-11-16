@@ -72,11 +72,19 @@ img {
     width: 200px;
     height: 834px;
     position: absolute;
+    flex-direction: column;
     top: 94px;
     right: 64px;
     display: flex;
-    flex-direction: column;
     gap: 24px;
+}
+
+.travel-cards__foto {
+    width: 200px; 
+    height: 262px; 
+    border-radius: 32px 32px 32px 32px; 
+    border: 1px solid #333333;
+    object-fit: cover; 
 }
 
 .travel-statistics {
@@ -131,7 +139,6 @@ img {
     top: 125px;
     left: 469px;
 }
-
 
 .reviews__frame {
     position: relative;

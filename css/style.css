@@ -50,7 +50,10 @@ img {
     padding-bottom: 32px;
 }
 
-.travel-description__explore-button {
+.explore-button {
+    position: absolute;
+    top: 701px;
+    left: 64px;
     background: #333333;
     color: #FFFFFF;
     font-size: 22px;
@@ -61,7 +64,7 @@ img {
     transition: all 500ms ease;
 }
 
-.travel-description button:hover {
+.explore-button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }

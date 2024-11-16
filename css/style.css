@@ -6,6 +6,9 @@ body {
     background-color: #ffffff;  
     font-family: 'Lato', sans-serif;
     color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 

@@ -13,6 +13,7 @@ img {
     max-width: 100%;
 }
 
+/*travel-page - самая левая часть с текстом*/
 .travel-page {
     position: relative;
     background-color: #FFFFFF;
@@ -62,12 +63,14 @@ img {
     transform: scale(1.1);
 }
 
+/*soft-star*/
 .travel-description__soft-star {
     position: absolute;
     top: 144px;
     left: 386px;
 }
 
+/*travel-cards - три картинки справа*/
 .travel-cards {
     width: 200px;
     height: 834px;
@@ -87,6 +90,7 @@ img {
     object-fit: cover; 
 }
 
+/*travel-statistics - статистика в самом низу*/
 .travel-statistics {
     position: absolute;
     display: flex;
@@ -132,6 +136,7 @@ img {
     font-weight: 400;
 }
 
+/*reviews - середина с аркой и комментариями*/
 .reviews {
     position: relative;
     width: 665px; 
@@ -179,6 +184,7 @@ img {
     top: 25.5px;
     left: 24px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .reviews__text {
